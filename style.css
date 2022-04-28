@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+#card-principal {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 2px #d3daf1;
+}
+/* Image, tittle and description of the product. */
+.imagem-card {
+    width: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text-header {
+    text-align: center;
+    padding-top: 15px;
+    color:  hsl(223, 47%, 23%);
+}
+
+.text {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+/* Anual Plan */
+
+.anual-plan {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: hsl(225, 100%, 98%);
+    height: 80px;
+    border-radius: 20px;
+
+}
+
+.anual-plan-image {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.anual-plan-title {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    color:  hsl(223, 47%, 23%);
+    font-weight: 700;
+
+}
+
+.anual-plan-description {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 15px;
+}
+
+.anual-plan-change {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 200px;
+    color: hsl(245, 75%, 52%);
+}
+.anual-plan-change:hover {
+    color: #6f63f0;
+    text-decoration: none;
+}
+.anual-plan-change:visited {
+    color: none;
+}
+
+/* Order the product button */
+
+.order {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 350px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px lightgray;
+}
+.order:hover {
+    background-color: #6356f0;
+}
+
+.order-text{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Cancell order */
+.order-cancell {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.order-cancell-link {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.order-cancell-link:hover {
+    color: hsl(223, 47%, 23%);
+}
